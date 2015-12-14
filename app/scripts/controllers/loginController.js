@@ -10,7 +10,7 @@ angular.module('AngularScaffold.Controllers')
       $scope.boollog = false;
 
       $scope.login = function(user){
-          $state.go('admin');
+          //$state.go('admin');
           authService.Login(user).then(function(response){
           $sessionStorage.currentUser = response.data;
           $scope.user = {};
@@ -21,9 +21,7 @@ angular.module('AngularScaffold.Controllers')
             $scope.boollog = true;
           }
           if($scope.boollog == false){
-            if($sessionStorage.currentUser > -1){
-                $state.go('admin');
-            }
+                $state.go('users');
           }
         }).catch(function(err){
           alert("Error, ingrese los datos correctos");
