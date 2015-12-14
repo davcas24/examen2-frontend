@@ -1,0 +1,38 @@
+#body_login{
+    background-image: url("Images/white.jpg");
+    height: 150%;
+    width: 100%;
+}
+
+#login{
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  border: solid 13px;
+  margin-top: 180px;
+  height: 250px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#newuser{
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  border: solid 13px;
+  margin-top: 180px;
+  height: 250px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#page{
+height: 250px;
+padding: 0px;
+margin: 0px;
+text-align: center;
+background-color: rgba(255,255,255,0.6);
+
+}
+
+#admin_body{
+  background-image: url("Images/red.jpg");
+}
